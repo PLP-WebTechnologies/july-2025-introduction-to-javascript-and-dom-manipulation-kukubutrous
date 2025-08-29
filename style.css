@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f4f4f4;
+}
+
+section {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input,
+button {
+    margin: 5px 0;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Highlight invalid input */
+input.error {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+
+/* Success feedback */
+input.success {
+    border: 2px solid green;
+    background-color: #e6ffe6;
+}
+
+p.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin: 3px 0 8px;
+}
